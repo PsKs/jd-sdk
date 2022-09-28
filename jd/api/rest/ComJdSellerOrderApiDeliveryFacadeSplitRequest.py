@@ -1,14 +1,14 @@
 from jd.api.base import RestApi
 
-class ComJdThPopOpenOrderDeliveryFacadeSplitOrderRequest(RestApi):
+class ComJdSellerOrderApiDeliveryFacadeSplitRequest(RestApi):
 		def __init__(self,domain,port=80):
 			"""
 			"""
 			RestApi.__init__(self,domain, port)
-			self.param = None
+			self.param1 = None
 
 		def getapiname(self):
-			return 'jingdong.com.jd.th.pop.open.OrderDeliveryFacade.splitOrder'
+			return 'jingdong.com.jd.seller.order.api.DeliveryFacade.split'
 
 			
 	
@@ -26,18 +26,18 @@ class Attribute1(object):
 		def __init__(self):
 			"""
 			"""
-			self.groupId = None
-			self.skus = None
+			self.skuDetailList = None
 
 
-class Param(object):
+class Param1(object):
 		def __init__(self):
 			"""
 			"""
 			self.desc = None
 			self.venderId = None
-			self.skuGroup = None
+			self.language = None
 			self.orderId = None
+			self.skuGroups = None
 
 
 

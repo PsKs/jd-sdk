@@ -1,16 +1,18 @@
 from jd.api.base import RestApi
 
-class ComJdSellerOrderApiOperationFacadeVerifyOrderRequest(RestApi):
+class ComJdSellerOrderApiCancelFacadeSubmitRequest(RestApi):
 		def __init__(self,domain,port=80):
 			"""
 			"""
 			RestApi.__init__(self,domain, port)
+			self.reasonType = None
+			self.reasonCode = None
 			self.language = None
 			self.orderId = None
-			self.verifyCode = None
+			self.reasonDesc = None
 
 		def getapiname(self):
-			return 'jingdong.com.jd.seller.order.api.OperationFacade.verifyOrder'
+			return 'jingdong.com.jd.seller.order.api.CancelFacade.submit'
 
 			
 

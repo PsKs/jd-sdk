@@ -9,6 +9,7 @@ class ComJdSellerOrderApiPrintFacadePrintRequest(RestApi):
 			self.orderId = None
 			self.format = None
 			self.type = None
+			self.needSku = None
 
 		def getapiname(self):
 			return 'jingdong.com.jd.seller.order.api.PrintFacade.print'
