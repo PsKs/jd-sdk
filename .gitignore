@@ -1,0 +1,6 @@
+
+.DS_Store
+/build/*
+/dist/*
+/jd_sdk.egg-info/*
+/venv/*
