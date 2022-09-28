@@ -4,3 +4,4 @@
 /dist/*
 /jd_sdk.egg-info/*
 /venv/*
+/.idea/*
