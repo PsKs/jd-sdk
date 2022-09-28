@@ -28,6 +28,6 @@ setup(
         "Programming Language :: Python :: 3.6",
         "Programming Language :: Python :: 3.7",
     ],
-    install_requires=["rsa", "psutil", "apscheduler", "wincertstore"],
-    python_requires = '>=3.6',
+    install_requires=["rsa", "psutil", "apscheduler", "wincertstore", "pycryptodome"],
+    python_requires='>=3.6',
 )
